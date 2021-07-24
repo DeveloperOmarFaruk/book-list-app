@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List App</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="login-box">
+        <h2><i class="fas fa-book"></i> &nbsp; Your Favorite Book List </h2>
+        <form id="book-form">
+            <div class="user-box">
+                <input type="text" name="" required="" id="title">
+                <label>Title</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="author">
+                <label>Author</label>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="" required="" id="year">
+                <label>Year</label>
+            </div>
+            <a href="#" id="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> Add Book
+            </a>
+        </form>
+
+        <table class="fl-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody id="book-list" class="book-list">
+            </tbody>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/a3b32a86e0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
