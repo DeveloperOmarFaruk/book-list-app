@@ -1,0 +1,16 @@
+{
+    "name": "book-list-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "gh-pages -d src"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://DeveloperOmarFaruk.github.io/book-list-app",
+    "dependencies": {
+        "gh-pages": "^3.2.3"
+    }
+}
